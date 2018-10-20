@@ -11,7 +11,7 @@ const serviceAccount = require("./maddencfm-cddb0-firebase-adminsdk-0ds5s-351253
 // TODO: Enter your database url from firebase
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://<DATABASE_NAME>.firebaseio.com/"
+  databaseURL: "https://maddencfm-cddb0.firebaseio.com/"
 });
 
 // Setup
